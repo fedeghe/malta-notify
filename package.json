@@ -1,0 +1,28 @@
+{
+  "name": "malta-notify",
+  "version": "0.0.5",
+  "description": "Malta plugin to notify via email at every build",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fedeghe@github.com/fedeghe/malta-notify.git"
+  },
+  "keywords": [
+    "malta",
+    "malta plugin",
+    "malta notify",
+    "malta notify plugin"
+  ],
+  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fedeghe/malta-notify/issues"
+  },
+  "dependencies": {
+    "nodemailer": "^2.6.4",
+    "malta": ">=3.0.0"
+  },
+  "main": "./index.js"
+}
