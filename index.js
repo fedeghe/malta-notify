@@ -17,12 +17,7 @@ function malta_notify(o, options) {
 		isEmail = function (email) {
 			return email.match(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
 		},
-        pluginName = path.basename(path.dirname(__filename)),
-		doErr = function (e) {
-			console.log(('[ERROR on ' + o.name + ' using ' + pluginName + '] :').red());
-			console.dir(e);
-			self.stop();
-		};
+        pluginName = path.basename(path.dirname(__filename));
 
     if (!exists) {
         msg = 'file ' + paramFile + ' doesn`t exists'; 
@@ -66,7 +61,7 @@ function malta_notify(o, options) {
 	 
 	return function (solve, reject){
 		transporter.sendMail(mailOptions, function(err, info) {
-		    err && doErr(err);
+		    err && self.doErr(err, o, pluginName);
 		    msg = 'Message sent to ' + options.to + ': ' + info.response;
 		    solve(o);
 		    self.notifyAndUnlock(start, msg.darkgray());
