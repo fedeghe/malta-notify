@@ -1,3 +1,10 @@
+---
+[![npm version](https://badge.fury.io/js/malta-notify.svg)](http://badge.fury.io/js/malta-notify)
+[![Dependencies](https://david-dm.org/fedeghe/malta-notify.svg)](https://david-dm.org/fedeghe/malta-notify)
+[![npm downloads](https://img.shields.io/npm/dt/malta-notify.svg)](https://npmjs.org/package/malta-notify)
+[![npm downloads](https://img.shields.io/npm/dm/malta-notify.svg)](https://npmjs.org/package/malta-notify)  
+---  
+
 This plugin can be used on all files  
 
 Options :  
