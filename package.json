@@ -21,8 +21,8 @@
     "url": "https://github.com/fedeghe/malta-notify/issues"
   },
   "dependencies": {
-    "nodemailer": "^2.6.4",
-    "malta": ">=3.8.3"
+    "malta": ">=3.8.14",
+    "nodemailer": "^2.7.2"
   },
   "main": "./index.js"
 }
