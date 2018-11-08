@@ -1,6 +1,6 @@
 {
   "name": "malta-notify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Malta plugin to notify via email at every build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
