@@ -1,28 +1,28 @@
 {
-  "name": "malta-notify",
-  "version": "1.0.3",
-  "description": "Malta plugin to notify via email at every build",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://fedeghe@github.com/fedeghe/malta-notify.git"
-  },
-  "keywords": [
-    "malta",
-    "malta plugin",
-    "malta notify",
-    "malta notify plugin"
-  ],
-  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fedeghe/malta-notify/issues"
-  },
-  "dependencies": {
-    "malta": ">=3.8.14",
-    "nodemailer": "^2.7.2"
-  },
-  "main": "./index.js"
+    "name": "malta-notify",
+    "version": "1.0.3",
+    "description": "Malta plugin to notify via email at every build",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://fedeghe@github.com/fedeghe/malta-notify.git"
+    },
+    "keywords": [
+        "malta",
+        "malta plugin",
+        "malta notify",
+        "malta notify plugin"
+    ],
+    "author": "Federico Ghedina <fedeghe@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fedeghe/malta-notify/issues"
+    },
+    "dependencies": {
+        "malta": ">=3.8.14",
+        "nodemailer": "^2.7.2"
+    },
+    "main": "./index.js"
 }
