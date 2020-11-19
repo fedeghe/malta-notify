@@ -1,6 +1,6 @@
 {
     "name": "malta-notify",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Malta plugin to notify via email at every build",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,8 +21,7 @@
         "url": "https://github.com/fedeghe/malta-notify/issues"
     },
     "dependencies": {
-        "malta": "4.0.4",
-        "nodemailer": "^2.7.2"
+        "nodemailer": "^6.4.16"
     },
     "main": "./index.js"
 }
