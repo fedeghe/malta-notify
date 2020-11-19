@@ -1,6 +1,5 @@
 ---
 [![npm version](https://badge.fury.io/js/malta-notify.svg)](http://badge.fury.io/js/malta-notify)
-[![Dependencies](https://david-dm.org/fedeghe/malta-notify.svg)](https://david-dm.org/fedeghe/malta-notify)
 [![npm downloads](https://img.shields.io/npm/dt/malta-notify.svg)](https://npmjs.org/package/malta-notify)
 [![npm downloads](https://img.shields.io/npm/dm/malta-notify.svg)](https://npmjs.org/package/malta-notify)  
 ---  
@@ -15,14 +14,11 @@ Options :
     "account" : "xxxxxxxxxxxxxxxxx@gmail.com",
     "pwd": "xxxxxxxxxxxxxx",
     "from" : "'xxxxxxx yyyyyyy 👥'' <xxxxxxxxxxx@gmail.com>",
+    "port": 465,
     "subject" : "%fname% compiled",
     "content" : {
         "txt" : "The new content is :\n\n\n%content%",
         "html" : "<b>The new  content is:</b><br/><br/><br/><textarea style=\"width:100%;height:500px;background-color:#444;color:#0f0;font-size:2em\">%content%</textarea>"
-    },
-    "oldContent" : {
-        "txt" : "The old content was :\n\n\n%oldContent%",
-        "html" : "<b>The old content was:</b><br/><br/><br/><textarea style=\"width:100%;height:500px;background-color:#444;color:#ff0;font-size:2em\">%oldContent%</textarea>"
     }  
 }
 ```
